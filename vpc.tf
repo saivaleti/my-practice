@@ -3,5 +3,7 @@ resource "aws_vpc" "myvpc-git" {
    tags = {
      
      Name = "sai"
+
+     deportment = "dev"
    }
 }
