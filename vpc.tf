@@ -3,6 +3,9 @@ resource "aws_vpc" "myvpc-git" {
 
   tags = {
     Name = "gitttt"
+    Owner "sai"
   }
 }
+
+   
 
