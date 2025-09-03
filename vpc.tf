@@ -7,3 +7,12 @@ resource "aws_vpc" "myvpc-git" {
      deportment = "dev"
    }
 }
+
+  tags = {
+    Name = "gitttt"
+    Owner "sai"
+  }
+}
+
+   
+
